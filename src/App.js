@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import WeekContainer from './WeekContainer';
 
 const api = {
-  key: '36501d3f607563f44b61525b129916ee',
+  key: process.env.KEY,
   base: 'http://api.openweathermap.org/data/2.5/'
 }
 
